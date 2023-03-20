@@ -1,0 +1,7 @@
+[Unit]
+Description=Saludar y mostrar fecha
+[Service]
+Type=simple
+ExecStart= saludo.sh
+[Install]
+WantedBy=multi-user.target
